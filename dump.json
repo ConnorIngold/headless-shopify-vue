@@ -1,0 +1,415 @@
+[
+	{
+		"id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQzNDIxNDA1MzQ4MzM=",
+		"availableForSale": true,
+		"createdAt": "2019-11-03T21:14:15Z",
+		"updatedAt": "2021-04-16T15:19:27Z",
+		"descriptionHtml": "<span>This mask is one of the craziest game characters from the \"Borderlands 2\"</span>",
+		"description": "This mask is one of the craziest game characters from the \"Borderlands 2\"",
+		"handle": "borderlands-3-printed-mask",
+		"productType": "mask",
+		"title": "borderlands 3 printed mask",
+		"vendor": "buy3dprintedstuff.com",
+		"publishedAt": "2021-04-16T15:19:27Z",
+		"onlineStoreUrl": null,
+		"options": [
+			{
+				"id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzU2Mzc0NzU4NjA1Mjk=",
+				"name": "Title",
+				"values": [
+					{
+						"value": "Default Title",
+						"type": {
+							"name": "String",
+							"kind": "SCALAR"
+						}
+					}
+				],
+				"type": {
+					"name": "ProductOption",
+					"kind": "OBJECT",
+					"fieldBaseTypes": {
+						"name": "String",
+						"values": "String"
+					},
+					"implementsNode": true
+				}
+			}
+		],
+		"images": [
+			{
+				"id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTMzODQ2OTY3OTEwODk=",
+				"src": "https://cdn.shopify.com/s/files/1/0248/3693/1633/products/Screenshot_1.png?v=1572815655",
+				"altText": null,
+				"type": {
+					"name": "Image",
+					"kind": "OBJECT",
+					"fieldBaseTypes": {
+						"altText": "String",
+						"id": "ID",
+						"originalSrc": "URL",
+						"src": "URL"
+					},
+					"implementsNode": false
+				},
+				"hasNextPage": false,
+				"hasPreviousPage": false,
+				"variableValues": {
+					"first": 20
+				}
+			}
+		],
+		"variants": [
+			{
+				"id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMTEwNzYyOTcxMTQwOQ==",
+				"title": "Default Title",
+				"price": "40.00",
+				"priceV2": {
+					"amount": "40.0",
+					"currencyCode": "GBP",
+					"type": {
+						"name": "MoneyV2",
+						"kind": "OBJECT",
+						"fieldBaseTypes": {
+							"amount": "Decimal",
+							"currencyCode": "CurrencyCode"
+						},
+						"implementsNode": false
+					}
+				},
+				"presentmentPrices": [
+					{
+						"price": {
+							"amount": "40.0",
+							"currencyCode": "GBP",
+							"type": {
+								"name": "MoneyV2",
+								"kind": "OBJECT",
+								"fieldBaseTypes": {
+									"amount": "Decimal",
+									"currencyCode": "CurrencyCode"
+								},
+								"implementsNode": false
+							}
+						},
+						"compareAtPrice": null,
+						"type": {
+							"name": "ProductVariantPricePair",
+							"kind": "OBJECT",
+							"fieldBaseTypes": {
+								"compareAtPrice": "MoneyV2",
+								"price": "MoneyV2"
+							},
+							"implementsNode": false
+						},
+						"hasNextPage": false,
+						"hasPreviousPage": false,
+						"variableValues": {
+							"first": 20
+						}
+					}
+				],
+				"weight": 30,
+				"available": true,
+				"sku": "",
+				"compareAtPrice": null,
+				"compareAtPriceV2": null,
+				"image": {
+					"id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTMzODQ2OTY3OTEwODk=",
+					"src": "https://cdn.shopify.com/s/files/1/0248/3693/1633/products/Screenshot_1.png?v=1572815655",
+					"altText": null,
+					"type": {
+						"name": "Image",
+						"kind": "OBJECT",
+						"fieldBaseTypes": {
+							"altText": "String",
+							"id": "ID",
+							"originalSrc": "URL",
+							"src": "URL"
+						},
+						"implementsNode": false
+					}
+				},
+				"selectedOptions": [
+					{
+						"name": "Title",
+						"value": "Default Title",
+						"type": {
+							"name": "SelectedOption",
+							"kind": "OBJECT",
+							"fieldBaseTypes": {
+								"name": "String",
+								"value": "String"
+							},
+							"implementsNode": false
+						}
+					}
+				],
+				"unitPrice": null,
+				"unitPriceMeasurement": {
+					"measuredType": null,
+					"quantityUnit": null,
+					"quantityValue": 0,
+					"referenceUnit": null,
+					"referenceValue": 0,
+					"type": {
+						"name": "UnitPriceMeasurement",
+						"kind": "OBJECT",
+						"fieldBaseTypes": {
+							"measuredType": "UnitPriceMeasurementMeasuredType",
+							"quantityUnit": "UnitPriceMeasurementMeasuredUnit",
+							"quantityValue": "Float",
+							"referenceUnit": "UnitPriceMeasurementMeasuredUnit",
+							"referenceValue": "Int"
+						},
+						"implementsNode": false
+					}
+				},
+				"type": {
+					"name": "ProductVariant",
+					"kind": "OBJECT",
+					"fieldBaseTypes": {
+						"availableForSale": "Boolean",
+						"compareAtPrice": "Money",
+						"compareAtPriceV2": "MoneyV2",
+						"id": "ID",
+						"image": "Image",
+						"presentmentPrices": "ProductVariantPricePairConnection",
+						"price": "Money",
+						"priceV2": "MoneyV2",
+						"product": "Product",
+						"selectedOptions": "SelectedOption",
+						"sku": "String",
+						"title": "String",
+						"unitPrice": "MoneyV2",
+						"unitPriceMeasurement": "UnitPriceMeasurement",
+						"weight": "Float"
+					},
+					"implementsNode": true
+				},
+				"hasNextPage": false,
+				"hasPreviousPage": false,
+				"variableValues": {
+					"first": 20
+				}
+			}
+		],
+		"type": {
+			"name": "Product",
+			"kind": "OBJECT",
+			"fieldBaseTypes": {
+				"availableForSale": "Boolean",
+				"createdAt": "DateTime",
+				"description": "String",
+				"descriptionHtml": "HTML",
+				"handle": "String",
+				"id": "ID",
+				"images": "ImageConnection",
+				"onlineStoreUrl": "URL",
+				"options": "ProductOption",
+				"productType": "String",
+				"publishedAt": "DateTime",
+				"title": "String",
+				"updatedAt": "DateTime",
+				"variants": "ProductVariantConnection",
+				"vendor": "String"
+			},
+			"implementsNode": true
+		},
+		"hasNextPage": {
+			"value": true
+		},
+		"hasPreviousPage": false,
+		"variableValues": {
+			"first": 20
+		}
+	},
+	{
+		"id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQzNDIxNTgzMjc4NTc=",
+		"availableForSale": false,
+		"createdAt": "2019-11-03T22:18:25Z",
+		"updatedAt": "2021-04-16T15:19:27Z",
+		"descriptionHtml": "",
+		"description": "",
+		"handle": "a-bagin",
+		"productType": "",
+		"title": "A bagin",
+		"vendor": "buy3dprintedstuff.com",
+		"publishedAt": "2021-04-16T15:19:27Z",
+		"onlineStoreUrl": null,
+		"options": [
+			{
+				"id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzU2Mzc1MDA3NjQyMDk=",
+				"name": "Title",
+				"values": [
+					{
+						"value": "Default Title",
+						"type": {
+							"name": "String",
+							"kind": "SCALAR"
+						}
+					}
+				],
+				"type": {
+					"name": "ProductOption",
+					"kind": "OBJECT",
+					"fieldBaseTypes": {
+						"name": "String",
+						"values": "String"
+					},
+					"implementsNode": true
+				}
+			}
+		],
+		"images": [],
+		"variants": [
+			{
+				"id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zMTEwNzcxODk3MTQ0MQ==",
+				"title": "Default Title",
+				"price": "0.00",
+				"priceV2": {
+					"amount": "0.0",
+					"currencyCode": "GBP",
+					"type": {
+						"name": "MoneyV2",
+						"kind": "OBJECT",
+						"fieldBaseTypes": {
+							"amount": "Decimal",
+							"currencyCode": "CurrencyCode"
+						},
+						"implementsNode": false
+					}
+				},
+				"presentmentPrices": [
+					{
+						"price": {
+							"amount": "0.0",
+							"currencyCode": "GBP",
+							"type": {
+								"name": "MoneyV2",
+								"kind": "OBJECT",
+								"fieldBaseTypes": {
+									"amount": "Decimal",
+									"currencyCode": "CurrencyCode"
+								},
+								"implementsNode": false
+							}
+						},
+						"compareAtPrice": null,
+						"type": {
+							"name": "ProductVariantPricePair",
+							"kind": "OBJECT",
+							"fieldBaseTypes": {
+								"compareAtPrice": "MoneyV2",
+								"price": "MoneyV2"
+							},
+							"implementsNode": false
+						},
+						"hasNextPage": false,
+						"hasPreviousPage": false,
+						"variableValues": {
+							"first": 20
+						}
+					}
+				],
+				"weight": 0,
+				"available": false,
+				"sku": "",
+				"compareAtPrice": null,
+				"compareAtPriceV2": null,
+				"image": null,
+				"selectedOptions": [
+					{
+						"name": "Title",
+						"value": "Default Title",
+						"type": {
+							"name": "SelectedOption",
+							"kind": "OBJECT",
+							"fieldBaseTypes": {
+								"name": "String",
+								"value": "String"
+							},
+							"implementsNode": false
+						}
+					}
+				],
+				"unitPrice": null,
+				"unitPriceMeasurement": {
+					"measuredType": null,
+					"quantityUnit": null,
+					"quantityValue": 0,
+					"referenceUnit": null,
+					"referenceValue": 0,
+					"type": {
+						"name": "UnitPriceMeasurement",
+						"kind": "OBJECT",
+						"fieldBaseTypes": {
+							"measuredType": "UnitPriceMeasurementMeasuredType",
+							"quantityUnit": "UnitPriceMeasurementMeasuredUnit",
+							"quantityValue": "Float",
+							"referenceUnit": "UnitPriceMeasurementMeasuredUnit",
+							"referenceValue": "Int"
+						},
+						"implementsNode": false
+					}
+				},
+				"type": {
+					"name": "ProductVariant",
+					"kind": "OBJECT",
+					"fieldBaseTypes": {
+						"availableForSale": "Boolean",
+						"compareAtPrice": "Money",
+						"compareAtPriceV2": "MoneyV2",
+						"id": "ID",
+						"image": "Image",
+						"presentmentPrices": "ProductVariantPricePairConnection",
+						"price": "Money",
+						"priceV2": "MoneyV2",
+						"product": "Product",
+						"selectedOptions": "SelectedOption",
+						"sku": "String",
+						"title": "String",
+						"unitPrice": "MoneyV2",
+						"unitPriceMeasurement": "UnitPriceMeasurement",
+						"weight": "Float"
+					},
+					"implementsNode": true
+				},
+				"hasNextPage": false,
+				"hasPreviousPage": false,
+				"variableValues": {
+					"first": 20
+				}
+			}
+		],
+		"type": {
+			"name": "Product",
+			"kind": "OBJECT",
+			"fieldBaseTypes": {
+				"availableForSale": "Boolean",
+				"createdAt": "DateTime",
+				"description": "String",
+				"descriptionHtml": "HTML",
+				"handle": "String",
+				"id": "ID",
+				"images": "ImageConnection",
+				"onlineStoreUrl": "URL",
+				"options": "ProductOption",
+				"productType": "String",
+				"publishedAt": "DateTime",
+				"title": "String",
+				"updatedAt": "DateTime",
+				"variants": "ProductVariantConnection",
+				"vendor": "String"
+			},
+			"implementsNode": true
+		},
+		"hasNextPage": false,
+		"hasPreviousPage": {
+			"value": true
+		},
+		"variableValues": {
+			"first": 20
+		}
+	}
+]

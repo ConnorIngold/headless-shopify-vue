@@ -1,11 +1,9 @@
 <template>
 	<div class="about">
 		<h1>This is an about page</h1>
-		<div class="wrapper">
-			<!-- <div v-for="x in data" :key="x.id" class="single-product">
-				<img src="" alt="" />
-				<h2>{{ x }}</h2>
-			</div> -->
+		<div class="wrapper" v-if="loading">
+			<!-- {{ productList }} -->
+			<div v-if="(x, index) in productList" :key="x.id">{{ x.availableForSale }}</div>
 		</div>
 	</div>
 </template>
@@ -17,7 +15,8 @@
 
 	export default {
 		setup() {
-			const data = ref()
+			const productList = ref(null)
+			const loading = ref(false)
 
 			const client = Client.buildClient({
 				domain: 'buy3dprintedstuff-com.myshopify.com',
@@ -25,11 +24,13 @@
 			})
 
 			client.product.fetchAll().then(products => {
-				// data.value = products.flatMap(x => x)
-				console.log('a,', products[0])
+				let converToString = JSON.stringify(products)
+				productList.value = JSON.parse(converToString)
+				console.log(JSON.parse(converToString), 'qqq')
+				loading.value = true
 			})
 
-			return { data, client }
+			return { productList, client, loading }
 		},
 	}
 </script>
